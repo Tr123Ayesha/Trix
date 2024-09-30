@@ -1,0 +1,43 @@
+
+.Card {
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    max-width: 400px;
+    margin: 10px auto; 
+    border: 1px solid #439DFF66; 
+    border-radius: 10px; 
+height: 200px;
+  }
+  
+  
+  .upperContent {
+    padding-left: 20px; 
+    padding-top: 30px; 
+    padding-bottom:0; 
+    padding-right: 20px; 
+   
+  }
+  .upperContent p{
+  width:55%;
+  padding-top: 5px;
+   margin-top: 0;
+   margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+  }
+ 
+  .lower {
+    padding-top: 0;
+    padding-left: 10px; 
+    padding-right: 10px; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .Card {
+      max-width: 100%; 
+    }
+  }
+  

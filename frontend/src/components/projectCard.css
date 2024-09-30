@@ -1,0 +1,98 @@
+.project-card {
+  width: 300px; 
+  background-color: #111; 
+  color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  padding: 10px !important;
+  
+}
+
+
+.project-card .ant-card-body {
+  padding: 0 !important; 
+}
+
+
+.card-header {
+  background-image: url("../assets/landingPage/bglines.png");
+  background-size: cover; 
+background-position: center;
+  height: 180px;
+  padding-left: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-header h2{
+  color: black;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.project-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.project-name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.card-content {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.round-info{
+  background-color:  #FFFFFF0D;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0; 
+  margin-bottom: 20px;
+}
+.details{
+  padding-bottom: 5px 0;
+}
+.details{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.detail-item, .round-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-item span, .round-item span {
+  font-size: 12px;
+  color: #888; 
+}
+
+.detail-item p, .round-item p {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 5px 0 0 0;
+}
+
+.buy-button {
+  background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+  border-radius: 8px;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+@media  only screen and (max-width: 768px) {
+  .card-header {
+   
+    padding-left: 100px;
+   
+  }
+}
